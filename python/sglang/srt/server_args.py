@@ -6903,6 +6903,7 @@ class ServerArgs:
         else:
             return False
 
+
 # NOTE: This is a global variable to hold the server args for scheduler.
 _global_server_args: Optional[ServerArgs] = None
 
